@@ -1,0 +1,28 @@
+/*px % rem em vw vh */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    background-color: rgb(189, 245, 20);
+    height: 100px;
+    padding: 50px;
+    box-sizing: border-box;
+ }
+ html,
+ body {
+    height: 100%;
+ }
+ .div{
+    background-color: blue;
+    height: 100%;
+
+    div {
+        height: 50%;
+        width: 50%;
+        background-color: blanchedalmond;
+    }
+ }
+  
